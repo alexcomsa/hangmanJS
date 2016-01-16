@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+<title> Alexandru Comsa - Project for Web Techniques</title>
+ <link rel="stylesheet" type="text/css" href="css/hangman.css" />
+ <script src="js/jquery-2.2.0.min.js"></script>
+ <script src="js/keyClick.js"></script>
+</head>
+<body>
+
+<div class ="wordContainer"  id="wordContainer">
+</div>
+<div class="canvasContainer">
+<canvas id="canvas" width="300" height="300"></canvas>
+</div>
+<div id="controls" class="controls">
+<input  class="manage" type="button" id="start" onclick="displayWord()" value="Start Game"/>
+</div>
+<div id="1controls" class="controls">
+<input  class="manage" type="button" id="reload" onclick="reloadGame()" value="Reload Game"/>
+</div>
+<div class="keyboard" id="keyboardContainer">
+<input class="key" type="button" value="A" onclick="revealLetter(this)" />
+<input class="key" type="button" value="B" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="C" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="D" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="E" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="F" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="G" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="H" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="I" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="J" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="K" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="L" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="M" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="N" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="O" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="P" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="Q" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="R" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="S" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="T" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="U" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="V" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="W" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="X" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="Y" onclick="revealLetter(this)"/>
+<input class="key" type="button" value="Z" onclick="revealLetter(this)"/>
+</div id="keyboardContainer">
+
+</body>
+</html>
